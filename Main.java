@@ -2,9 +2,9 @@ package CentralDeNotificacoes;
 
 public class Main {
     public static void main(String[] args) {
-        CentralDeNotificacoes notificacao = new CentralDeNotificacoes(new Sms());
+        CentralDeNotificacoes notificacao = new CentralDeNotificacoes(new Email());
 
-        notificacao.notificar("Ola mundo");
+        notificacao.notificar("Olá, você está sendo notificado por email!");
 
     }
 }
